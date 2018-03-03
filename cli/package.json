@@ -15,6 +15,7 @@
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
     "vue": "^2.5.2",
+    "vue-fullcalendar": "^1.0.9",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
