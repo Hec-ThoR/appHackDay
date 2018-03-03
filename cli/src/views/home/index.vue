@@ -5,13 +5,14 @@
       <el-form-item label="Motivo">
         <el-input v-model="form.motivo"/>
       </el-form-item>
+      </el-form-item>
       <el-form-item label="Periodo">
         <el-col :span="11">
           <el-date-picker type="date" placeholder="01/01/0000" v-model="form.date1" style="width: 100%;"/>
         </el-col>
         <el-col class="line" :span="2">-</el-col>
         <el-col :span="11">
-          <el-time-picker type="fixed-time" placeholder="01/01/0000" v-model="form.date2" style="width: 100%;"/>
+          <el-date-picker type="date" placeholder="01/01/0000" v-model="form.date2" style="width: 100%;"/>
         </el-col>
       </el-form-item>
       <el-form-item label="Que dias?">
